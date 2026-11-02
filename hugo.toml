@@ -1,8 +1,8 @@
 baseURL = "https://jjanghani-glitch.github.io/homepage1/"
-title = "Tella"
+title = "Newway I&C Co., Ltd."
 author = "username"
 locale = "ko"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ko"
 enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
