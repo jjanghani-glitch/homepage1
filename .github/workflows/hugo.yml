@@ -31,7 +31,11 @@ jobs:
 
       - name: Install Dart Sass
         run: |
-          sudo snap install dart-sass
+          DART_SASS_VERSION=1.77.8
+          wget https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+          tar -xzf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+          sudo cp -r dart-sass/* /usr/local/bin/
+          rm -rf dart-sass*
 
       - name: Checkout
         uses: actions/checkout@v4
