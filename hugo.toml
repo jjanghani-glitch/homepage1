@@ -26,15 +26,6 @@ hasCJKLanguage = true
     proxyFromEnvironment = false
     urls = ['(?i)^https?://[a-z0-9]', '! (?i)^https?://\d+\.', '! (?i)localhost', '! (?i)^https?://[^/?#]*@']
 
-#  [security.node]
-#    [security.node.permissions]
-#      allowAddons = ['tailwindcss']
-#      allowChildProcess = ['tailwindcss']
-#      allowRead = ['.']
-#      allowWorker = ['tailwindcss']
-#      allowWrite = []
-#      disable = false
-
 [services]
   [services.googleAnalytics]
   # If you're using Google Analytics, you can enable this feature.
