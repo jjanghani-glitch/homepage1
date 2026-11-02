@@ -93,8 +93,8 @@ googleFonts = true
 
 [menu]
   [[menu.main]]
-  identifier = "products"
-  name = "Products"
+  identifier = "회사소개 / 오시는길"
+  name = "회사소개 / 오시는길"
   url = "/products/"
   weight = 1
 
