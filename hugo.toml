@@ -42,11 +42,10 @@ googleFonts = true
 
   [params.logo]
   main = "img/logo/newway-logo.jpg"
-  alt = "Newway Logo"
-
+  alt = "(주)뉴웨이정보통신"
   # The size parameter is the class name of tailwindcss
   # https://tailwindcss.com/
-  size = "h-14"
+  size = "h-28"
 
   [params.site]
   name = "Tella"
