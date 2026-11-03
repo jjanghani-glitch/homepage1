@@ -99,32 +99,32 @@ googleFonts = true
   weight = 1
 
   [[menu.main]]
-  identifier = "blog"
-  name = "Blog"
+  identifier = "사업분야"
+  name = "사업분야"
   url = "/blog/"
   weight = 2
 
   [[menu.main]]
-  identifier = "about"
-  name = "About"
+  identifier = "포트폴리오"
+  name = "포트폴리오"
   url = "/about/"
   weight = 3
 
   [[menu.main]]
-  identifier = "contact"
-  name = "Contact"
+  identifier = "견적문의"
+  name = "견적문의"
   url = "/contact/"
   weight = 4
 
   # Footer Menu
   [[menu.footer]]
   name = "Home"
-  url = "/"
+  url = "https://jjanghani-glitch.github.io/homepage1"
   weight = 1
 
   [[menu.footer]]
-  name = "Github"
-  url = "https://github.com/opera7133/tella"
+  name = "견적문의"
+  url = "https://jjanghani-glitch.github.io/homepage1"
   #pre = "<i class='bi bi-github text-2xl'></i>"
   weight = 2
 
