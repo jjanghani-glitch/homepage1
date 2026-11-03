@@ -41,7 +41,7 @@ mainSections = ['blog']
 googleFonts = true
 
   [params.logo]
-  main = "img/logo/newway-logo.,jpg"
+  main = "img/logo/newway-logo.jpg"
   alt = "Newway Logo"
 
   # The size parameter is the class name of tailwindcss
